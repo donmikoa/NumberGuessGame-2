@@ -13,6 +13,6 @@ def game_error_checker():#This function helps to check the game for errors
     print("Would you like to continue " + name)
     print("type Y for yes or N for No")
     print("Please " + name + " Kindly input integers only, between 1 & 10")
-    play_again_func()
+    play_game_func()
 
 
