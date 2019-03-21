@@ -21,7 +21,6 @@ def play_again_func():# this function helps the player to play the game again
     play_again = play_again.upper()
     if play_again == "Y":
         game_engine()
-
     elif play_again == "N":
         print("*******Thanks For Playing," + name + " Goodbye******")
 
