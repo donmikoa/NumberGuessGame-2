@@ -37,6 +37,8 @@ def game_engine():  # This is the main game engine
     num = random.randint(1, 10)
     try:
         for i in range(1, 10):
+            print("********KINDLY TAKE A GUESS********")
+
 
 
 
