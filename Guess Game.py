@@ -38,6 +38,7 @@ def game_engine():  # This is the main game engine
     try:
         for i in range(1, 10):
             print("********KINDLY TAKE A GUESS********")
+            player_guess = int(input())
 
 
 
