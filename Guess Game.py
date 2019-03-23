@@ -34,7 +34,7 @@ def play_again_func():
 
 
 def game_engine():  # This is the main game engine
-    num = r.randint(1, 10)
+    num = random.randint(1, 10)
 
     try:
 
