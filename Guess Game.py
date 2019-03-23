@@ -33,4 +33,14 @@ def play_again_func():
         exit()
 
 
+def game_engine():  # This is the main game engine
+    num = r.randint(1, 10)
+
+    try:
+
+        for i in range(1, 10):
+
+
+
+
 
