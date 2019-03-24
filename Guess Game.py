@@ -40,6 +40,10 @@ def game_engine():  # This is the main game engine
             print("********KINDLY TAKE A GUESS********")
             player_guess = int(input())
 
+            if player_guess > num:
+                print("C'mon that's too high, guess lower")
+
+
 
 
 
