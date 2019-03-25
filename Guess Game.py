@@ -39,12 +39,18 @@ def game_engine():  # This is the main game engine
         for i in range(1, 10):
             print("********KINDLY TAKE A GUESS********")
             player_guess = int(input())
-
             if player_guess > num:
                 print("C'mon that's too high, guess lower")
-
             elif player_guess < num:
                 print("Hey that's too low, guess higher")
+            elif player_guess == num:
+                print("Good Job, " + name + "! You guessed my number in " + str(i) + " guesses!")
+                print("would you like to play again?")
+
+                print("press Y for yes or N for No")
+
+                play_again_func()
+
 
 
 
