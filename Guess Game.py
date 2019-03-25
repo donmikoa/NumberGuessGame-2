@@ -48,13 +48,5 @@ def game_engine():  # This is the main game engine
                 print("would you like to play again?")
                 print("press Y for yes or N for No")
                 play_again_func()
-
-
-
-
-
-
-
-
-
-
+            else:
+                print(">>>>>^^^GAME OVER^^^<<<<<<<<")
