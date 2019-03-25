@@ -43,6 +43,10 @@ def game_engine():  # This is the main game engine
             if player_guess > num:
                 print("C'mon that's too high, guess lower")
 
+            elif player_guess < num:
+                print("Hey that's too low, guess higher")
+
+
 
 
 
