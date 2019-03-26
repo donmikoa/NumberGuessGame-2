@@ -50,3 +50,7 @@ def game_engine():  # This is the main game engine
                 play_again_func()
             else:
                 print(">>>>>^^^GAME OVER^^^<<<<<<<<")
+                print("Oh, sorry the number i was thinking of was " + str(num))
+                print("Dont feel bad try harder next time.")
+                print("press Y for yes or N for No")
+                play_again_func()
