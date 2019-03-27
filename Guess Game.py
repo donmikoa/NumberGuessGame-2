@@ -55,3 +55,7 @@ def game_engine():  # This is the main game engine
                 print("Dont feel bad try harder next time.")
                 print("press Y for yes or N for No")
                 play_again_func()
+    except ValueError:
+        print("Invalid input")
+        print("Would you like to continue " + name)
+        print("type Y for yes or N for No")
