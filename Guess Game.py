@@ -2,9 +2,9 @@ import random
 
 print("Enter your name:")
 name = str(input())
-print("=============Welcome " + name + ", to guess the number game."
-      "Am thinking of a number between 1 and 10========================")
-print("------------------------------------------------------------------"
+print("=============Hi " + name + ", Welcome to the number challenge."
+      "Try guessing a number between 1 and 10========================")
+print("------------------------------------------------------------"
       "-----------------------------------------------------------")
 
 
